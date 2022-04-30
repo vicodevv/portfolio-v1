@@ -5,6 +5,8 @@
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "source": "src/index.html",
   "scripts": {
+    "deploy": "gh pages -d build",
+    "predeploy": "npm run build",
     "start": "parcel",
     "build": "parcel build"
   },
@@ -18,9 +20,10 @@
   "bugs": {
     "url": "https://github.com/cobidev/simplefolio/issues"
   },
-  "homepage": "https://github.com/cobidev/simplefolio#readme",
+  "homepage": "https://vicodevv.github.io/vicodevv.github.io",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.1",
+    "gh-pages": "^3.2.3",
     "parcel": "^2.0.1",
     "prettier": "^2.4.1"
   },
